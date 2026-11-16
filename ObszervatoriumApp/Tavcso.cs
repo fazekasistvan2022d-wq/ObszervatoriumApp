@@ -21,7 +21,7 @@ namespace ObszervatoriumApp
             Uzemora = uzemora;
             osszesTavcso++;
         }
-        public override int FenntartasiKoltseg()
+        public virtual int FenntartasiKoltseg()
         {
             return AtmeroCm*100+Uzemora*15;
         }
